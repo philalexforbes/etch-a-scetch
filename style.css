@@ -1,0 +1,56 @@
+body {
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    display: flex;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+}
+
+#sketch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 50px;
+}
+
+#sketchPad{
+    display: flex;
+    height: 50%;
+    width: 50%;
+    background: beige;
+    flex-direction: column;
+    border: 15px solid white;
+    border-radius: 15px;
+}
+
+#sliderContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.rows{
+    flex: 1 1;
+    display: flex;
+}
+
+.cells{
+    flex: 1 1;
+    aspect-ratio: 1;
+}
+
+#sliderContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
